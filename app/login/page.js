@@ -1,8 +1,10 @@
 'use client'
 
+import { Menu } from "lucide-react"
 import { signIn, useSession } from "next-auth/react"
 import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
+import Menubar from "@/components/menu"
 
 export default function LoginPage() {
   const { data: session, status } = useSession()
@@ -38,8 +40,13 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-md w-full space-y-8">
+    <div className="bg-gradient-to-br from-orange-50 to-red-50">
+         <Menubar/>
+ 
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 to-red-50 flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+       
+      <div className="max-w-md bg-gradient-to-br from-orange-50 to-red-50 w-full space-y-8">
+        
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
             Sign in to your account
@@ -70,6 +77,7 @@ export default function LoginPage() {
           </button>
         </div>
       </div>
+    </div>
     </div>
   )
 }

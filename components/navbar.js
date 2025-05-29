@@ -44,7 +44,7 @@ export default function Navbar() {
           <div className="flex items-center space-x-4">
             <span className="text-gray-700">Hello, {session.user.name}</span>
             <button
-              onClick={() => signOut({ callbackUrl: '/login' })}
+              onClick={() => signOut({ callbackUrl: '/' })}
               className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md text-sm font-medium"
             >
               Logout

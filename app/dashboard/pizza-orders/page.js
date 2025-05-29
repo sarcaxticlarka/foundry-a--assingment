@@ -16,7 +16,7 @@ const mockOrders = [
   {
     id: "PZA002",
     customerName: "Jane Smith",
-    pizzaType: "Pepperoni",
+    pizzaType: "PizzaMeniaoni",
     quantity: 1,
     orderDate: "2024-01-15 15:45",
     status: "Out for Delivery"
