@@ -83,7 +83,7 @@ const PizzaDeals = () => {
           <ul className="mb-6 space-y-2">
             <li className="flex items-center">
               <span className="w-2 h-2 bg-white rounded-full mr-3"></span>
-              1 Medium Meat Lover's Feast
+              1 Medium Meat Lovers Feast
             </li>
             <li className="flex items-center">
               <span className="w-2 h-2 bg-white rounded-full mr-3"></span>
