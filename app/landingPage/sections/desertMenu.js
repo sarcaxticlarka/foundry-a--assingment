@@ -38,8 +38,9 @@ const DessertMenu = () => {
             Save Room for Dessert!
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Our desserts are worth it. Trust us, you won&apos;t want to miss these sweet delights.
-          </p>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+  Our desserts are worth it. Trust us, you won not want to miss these sweet delights.
+</p>          </p>
         </div>
 
         {/* Dessert Grid */}
