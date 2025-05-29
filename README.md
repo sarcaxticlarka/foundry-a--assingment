@@ -2,13 +2,15 @@
 
 ## Author
 
-**Your Name**
+**MD SAJJAN**
 
 ## Project Overview
 
 This is a Next.js application that implements Google OAuth authentication using NextAuth.js. It features a modern landing page and a secure Google login flow.
 
 ✅ **When you first open the app, it displays a landing page. To test the authentication functionality, please click on the `Login` button.**
+🔗 **Live Demo:** [https://foundry-a-assingment-32wi.vercel.app/] 
+
 
 ## Getting Started
 
