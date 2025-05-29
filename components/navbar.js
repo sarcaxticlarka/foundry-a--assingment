@@ -45,7 +45,7 @@ export default function Navbar() {
             <span className="text-gray-700">Hello, {session.user.name}</span>
             <button
               onClick={() => signOut({ callbackUrl: '/' })}
-              className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md text-sm font-medium"
+              className="bg-red-400 hover:bg-red-600 text-white px-4 py-2 rounded-md text-sm font-medium"
             >
               Logout
             </button>
