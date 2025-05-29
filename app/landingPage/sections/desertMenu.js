@@ -38,7 +38,7 @@ const DessertMenu = () => {
             Save Room for Dessert!
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Our desserts are worth it. Trust us, you won't want to miss these sweet delights.
+            Our desserts are worth it. Trust us, you won&apos;t want to miss these sweet delights.
           </p>
         </div>
 
@@ -47,9 +47,8 @@ const DessertMenu = () => {
           {desserts.map((dessert) => (
             <div
               key={dessert.id}
-              className={`bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 transform ${
-                hoveredItem === dessert.id ? 'scale-105 shadow-2xl' : 'hover:scale-102 hover:shadow-xl'
-              }`}
+              className={`bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 transform ${hoveredItem === dessert.id ? 'scale-105 shadow-2xl' : 'hover:scale-102 hover:shadow-xl'
+                }`}
               onMouseEnter={() => setHoveredItem(dessert.id)}
               onMouseLeave={() => setHoveredItem(null)}
             >
