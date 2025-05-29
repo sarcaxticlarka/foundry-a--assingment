@@ -2,7 +2,7 @@ import React from 'react'
 import { useRouter } from 'next/navigation'
 
 
-const menu = () => {
+const Menu = () => {
     const router = useRouter()
 
     const handleLoginClick = () => {
@@ -31,4 +31,4 @@ const menu = () => {
     )
 }
 
-export default menu
+export default Menu
