@@ -25,7 +25,7 @@ const PizzaLandingPage = () => {
     <div id='hero' className="min-h-screen bg-gradient-to-br from-orange-50 to-red-50 pt-10 relative overflow-hidden">
       {/* Floating Ingredients */}
       <FloatingIngredient 
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtKDOfc8UtKBmekAmiPw3h0tpRPOBTaC5j3g&s" 
+        src="/assets/mushroom.png" 
         alt="Mushroom" 
         className="top-32 left-16" 
         animationDelay={0}
@@ -33,15 +33,15 @@ const PizzaLandingPage = () => {
       />
 
       <FloatingIngredient 
-        src="https://5.imimg.com/data5/SELLER/Default/2024/1/375681535/IX/YV/RQ/31083297/fresh-olive.jpeg" 
+        src="/assets/olive.png" 
         alt="Olive" 
         className="top-30 right-20" 
         animationDelay={1}
-        size="w-12 h-12"
+        size="w-16 h-16"
       />
 
       <FloatingIngredient 
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFsqgMafLdRkqm5URKiVNz33vQYd7EOsrS4w&s" 
+        src="/assets/basil.png" 
         alt="Basil leaf" 
         className="top-48 left-32" 
         animationDelay={2}
@@ -49,7 +49,7 @@ const PizzaLandingPage = () => {
       />
 
       <FloatingIngredient 
-        src="https://source.washu.edu/app/uploads/2015/11/Tomato250-1.jpg" 
+        src="https://png.pngtree.com/png-clipart/20230113/ourmid/pngtree-red-fresh-tomato-with-green-leaf-png-image_6561484.png" 
         alt="Tomato" 
         className="top-64 right-32" 
         animationDelay={0.5}
@@ -57,7 +57,7 @@ const PizzaLandingPage = () => {
       />
 
       <FloatingIngredient 
-        src="https://5.imimg.com/data5/IP/YW/MY-58060047/bell-paper-28red-2c-green-2c-yellow-29-500x500.jpg" 
+        src="/assets/bell.png" 
         alt="Bell PizzaMenia" 
         className="bottom-80 left-20" 
         animationDelay={1.5}
@@ -65,7 +65,7 @@ const PizzaLandingPage = () => {
       />
 
       <FloatingIngredient 
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtKDOfc8UtKBmekAmiPw3h0tpRPOBTaC5j3g&s" 
+        src="/assets/mushroom.png" 
         alt="Mushroom" 
         className="bottom-96 right-24" 
         animationDelay={2.5}
@@ -73,7 +73,7 @@ const PizzaLandingPage = () => {
       />
 
       <FloatingIngredient 
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBdxhhyOMGBk5aSKPh1hNqkjbjJyAADOGxKw&s" 
+        src="/assets/garlic.png" 
         alt="Garlic" 
         className="bottom-72 right-80" 
         animationDelay={1}
@@ -81,7 +81,7 @@ const PizzaLandingPage = () => {
       />
 
       <FloatingIngredient 
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFsqgMafLdRkqm5URKiVNz33vQYd7EOsrS4w&s" 
+        src="/assets/basil.png" 
         alt="Basil" 
         className="bottom-60 left-80" 
         animationDelay={0.8}
