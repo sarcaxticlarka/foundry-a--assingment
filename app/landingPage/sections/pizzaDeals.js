@@ -36,7 +36,7 @@ const PizzaDeals = () => {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className="aspect-square bg-gray-300 rounded-lg flex items-center justify-center">
-                <img src="https://stordflolretailpd.blob.core.windows.net/df-us/lolretail/media/lolr-media/recipe-collections/2024/2024.july/retail_collection_pizza-recipes-sausage-and-PizzaMenia-pizza_850x800.jpg?ext=.jpg" alt="Pizza 1" className="w-full h-full object-cover rounded-lg" />
+                <img src="https://www.sipandfeast.com/wp-content/uploads/2022/07/spicy-pepperoni-pizza-recipe-snippet.jpg" alt="Pizza 1" className="w-full h-full object-cover rounded-lg" />
               </div>
               <div className="aspect-square bg-gray-300 rounded-lg flex items-center justify-center">
               <img src="https://content.jdmagicbox.com/comp/ranchi/y1/0651px651.x651.211102215744.x4y1/catalogue/domino-s-pizza-kanke-road-ranchi-pizza-outlets-J9N9MlhjUG.jpg" alt="Pizza 1" className="w-full h-full object-cover rounded-lg" />
